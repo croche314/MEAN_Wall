@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<meta charset="utf-8">
+
+	<title>MEAN Wall</title>
+
+	<!-- JQUERY + BOOTSTRAP -->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<style>
+		body {
+			font-family: 'Comic Sans MS';
+			font-size: 18px;
+			margin: 50px;
+		}
+		.button {
+			display: block;
+			font-family: 'Comic Sans MS';
+			font-size: 15px;
+			background-color: #fff;
+			color: black;
+			border: 2px solid black;
+			box-shadow: 1px 1px 2px black;
+			text-decoration: none;
+			padding: 5px;
+		}
+		#login {
+			width: 50%;
+			margin: 200px auto;
+			text-align: center;
+		}
+		#message_form textarea {
+			width: 500px;
+		}
+		.message_body {
+			font-size: 30px;
+			font-style: italic;
+		}
+	</style>
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+	<script type="text/javascript" src="assets/app.js"></script>
+	<script src="assets/factory.js"></script>
+	<script src="assets/controllers.js"></script>
+</head>
+<body>
+	<div id="container">
+		
+	</div>
+	<div ng-view="">
+		
+	</div>
+</body>
+</html>
